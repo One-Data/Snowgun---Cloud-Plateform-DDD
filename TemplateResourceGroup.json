@@ -223,17 +223,7 @@
                                         "contactRoles": "[parameters('contactRoles')]"
                                     }
                                 },
-                                "filter": {
-                                    
-                                        
-                                            "dimensions": {
-                                                "name": "RGName",
-                                                "operator": "In",
-                                                "values": "[parameters('rgName')]"
-                                            }
-                                        
-                                    
-                                }
+
                             }
                         }
                     ],
