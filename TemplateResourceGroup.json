@@ -222,7 +222,7 @@
                                         "contactEmails": "[parameters('contactEmails')]",
                                         "contactRoles": "[parameters('contactRoles')]"
                                     }
-                                },
+                                }
 
                             }
                         }
