@@ -224,15 +224,15 @@
                                     }
                                 },
                                 "filter": {
-                                    "and": [
-                                        {
+                                    
+                                        
                                             "dimensions": {
                                                 "name": "ResourceGroupName",
                                                 "operator": "In",
                                                 "values": "[parameters('rgName')]"
                                             }
-                                        }
-                                    ]
+                                        
+                                    
                                 }
                             }
                         }
