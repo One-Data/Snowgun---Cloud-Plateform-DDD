@@ -1,1 +1,1 @@
-print(my app code)
+print('my app code')
