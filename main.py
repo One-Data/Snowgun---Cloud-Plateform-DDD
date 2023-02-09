@@ -1,9 +1,10 @@
-#main.py
 
 from flask import Flask
-app = Flask(_name_)
-@app.route("/")
-def index()
-  print('My snowgun app')
-  retrun "my app code"
+app = Flask(__name__)
 
+@app.route("/")
+def hello():
+    return "Hello from Python!"
+
+if __name__ == "__main__":
+    app.run()
